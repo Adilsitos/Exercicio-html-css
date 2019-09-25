@@ -22,6 +22,9 @@ button {
     padding: 0;
     background: rgba(0, 0, 0, 0);
   }
+  button:hover {
+    cursor: pointer;
+  }
 
 .title{
     position: center;
@@ -44,16 +47,17 @@ button {
     justify-content: center;
 }
 
-.use-button{
-    height: 40px;
-    width: 40px
-}
+
+.fa-plus-square {
+    font-size: 40px;
+  }
 
 .input{
 border: 1px solid #e6ecf0;
   height: 40px;
-  width: 400px;
+  width: 350px;
   display: flex;
   justify-content: center;
   align-content: center;
+  margin-right: 10px;
 }
